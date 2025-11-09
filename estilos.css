@@ -1,0 +1,13 @@
+:root {
+    --color-parrafo: #4A5568;
+    --color-degradado-titulo: linear-gradient(to right, #DE4396, #0D1C9F00 100%);
+    --color-fondo-boton: #3D63EA;
+    --color-texto-boton: #FAFAFA;
+    --color-titulo: #1A202C;
+    --color-nombre-enlace: #57007B;
+    --color-fondo-secundario: #E7DAED;
+    --color-degradado-parrafo: linear-gradient(to right, #FF92AE, #FF3D9A 100%);
+    --color-degradado-parrafo-secundario: linear-gradient(to right, #67E9F1, #24E795 100%);
+    --fuente-titulo: 'Arial', sans-serif;
+    --fuente-parrafo: Arial, sans-serif;
+}
