@@ -7,7 +7,8 @@
     --color-texto-boton: #FAFAFA;
     --color-titulo: #1A202C;
     --color-nombre-enlace: #57007B;
-    --color-fondo-secundario: #E7DAED;
+    --color-fondo-secundario: #F7F7FA;
+    --color-bordes-cajas: #E7DAED;
     --color-degradado-parrafo: linear-gradient(to right, #FF92AE, #FF3D9A 100%);
     --color-degradado-parrafo-secundario: linear-gradient(to right, #67E9F1, #24E795 100%);
     --fuente-titulo: 'Arial', sans-serif;
@@ -148,3 +149,94 @@
     width: 614px;
     height: 546px;
 }
+
+#seccion3 {
+    width: 1440px;
+    height: 1142px;
+    border: 16px;
+    padding: 16px 8px;
+    font-family: var(--fuente-parrafo);
+    color: var(--color-parrafo);
+    content: 344px 100px;
+    margin: auto; 
+    background: var(--color-fondo-secundario);
+}
+
+#titulo-seccion-3 {
+    font-size: 35px;
+    text-align: center;
+    color: black;
+    margin-top: 70px;
+    margin-bottom: 110px;
+
+}
+
+.col1, .col2{
+    display: inline-block;
+    width: 620px;
+    
+}
+
+#cajas {
+    text-align: center;
+}
+
+
+.cartas {
+    display: flex;
+    background: white;
+    width: 604px;
+    height: 237px;
+    margin-bottom: 20px;
+}
+
+.informacion {
+    display: flex;
+    width: 537px;
+    height: 139px;
+    margin: 59px 0px 0px 34px;
+    text-align: justify;
+}
+
+#icono1, #icono2, #icono3, #icono4, #icono5, #icono6 {
+    margin-right: 20px;
+}
+
+#icono1 img, #icono2 img, #icono3 img, #icono4 img, #icono5 img, #icono6 img{
+    border-radius: 20%;
+    padding: 10px;
+}
+
+#icono1 img {background: #1a202cee;}
+
+#icono2 img {background: linear-gradient(135deg, #f7b2c3, #f751a1cb);}
+
+#icono3 img{background: linear-gradient(to left, #ffe664, #ffc32a);}
+
+#icono4 img {
+    background: linear-gradient(to right, #32bae4, #67E9F1);
+    width: 25px;
+}
+
+#icono5 img {
+    background: linear-gradient(to right, #28e6b6, #6fe9ca);
+    width: 30px;
+}
+
+#icono6 img {  background: linear-gradient(83deg, #590780, #fd3682);}
+
+.informacion h3 {margin-top: 0px;}
+
+#uno {color: #1A202C;}
+
+#dos {color: pink;}
+
+#tres {color: #ffd814;}
+
+#cuatro {color: #4ee9f1;}
+
+#cinco {color: #7ee6dd;}
+
+#seis {color: rgb(231, 114, 196);}
+
+
