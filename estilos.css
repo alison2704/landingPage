@@ -113,6 +113,9 @@ header {
     margin: 0 var(--espaciado-sm);
     border-radius: var(--redondeado-boton);
 }
+#button-contact:hover {
+    cursor: pointer;
+}
 
 #seccion1 {
     max-width: var(--ancho-contenedor);
@@ -291,6 +294,24 @@ header {
     display: flex;
     align-items: last baseline;
     gap: var(--espaciado-sm);
+}
+
+.social-logo {
+    width: var(--tamaño-icono-md);
+    height: var(--tamaño-icono-md);
+    border-radius: 50%;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-titulo);
+    font-size: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.social-logo:hover {
+
+    cursor: pointer;
 }
 
 #social-logos img {
