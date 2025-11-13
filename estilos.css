@@ -239,4 +239,134 @@
 
 #seis {color: rgb(231, 114, 196);}
 
+/* Estilos para la sección 2 */
+#secccion2{
+    position: relative;
+    padding: 90px 20px 120px;
+    background: var(--color-fondo-secundario);
+    text-align: center;
+}
+
+#titulo-central{
+    font-size: 24px;
+    color: var(--color-parrafo);
+    font-family: var(--fuente-parrafo);
+    font-weight: 500;
+}
+
+#titulo-central-md{
+    font-size: 20px;
+    font-weight: 800;
+    font-family: var(--fuente-parrafo);
+    color: var(--color-titulo);
+    margin-top: 6px;
+    margin-bottom: 45px;
+}
+
+.parrafo-central{
+    max-width: 720px;
+    margin: 18px auto 28px;
+    text-align: center;
+    font-family: var(--fuente-parrafo);
+    color: var(--color-parrafo);
+    line-height: 1.7;
+}
+
+.botones_seccion2{
+    top: 48%;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.botones_seccion2 button{
+    width: 150px;
+    height: 150px;
+    background: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+.botones_seccion2 button img{
+    width: 54px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+/* Tarjetas con fotos circulares */
+.tarjetas_contenedor{
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    align-items: flex-end;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.tarjeta{
+    width: 160px;
+    text-align: center;
+}
+
+.destacar{
+    transform: scale(1.2);
+}
+
+.transparente {
+  color: white;
+  opacity: 0.5;
+  border-radius: 10px;
+}
+
+.imagen_desarrollador{
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.imagen_desarrollador img{
+    width: 120px;
+    height: 120px;
+    display: block;
+    border-radius: 50%;
+}
+
+.tarjeta .imagen_desarrollador{
+    width: 140px;
+    height: 140px;
+}
+
+.imagen_puntuacion img{
+    width: 120px;
+    height: auto;
+    margin: 10px auto;
+}
+
+.nombre_desarrollador{
+    margin-top: 8px;
+    font-weight: 700;
+    font-family: var(--fuente-parrafo);
+    color: var(--color-nombre-enlace);
+}
+
+.rol{
+    font-size: 12px;
+    font-family: var(--fuente-parrafo);
+    color: var(--color-parrafo);
+}
+
+@media (max-width: 900px){
+    .tarjetas_contenedor{ gap: 24px; }
+    .tarjeta{ width: 130px; }
+    .imagen_desarrollador{ width: 100px; height:100px; }
+    .tarjeta:nth-child(3) .imagen_desarrollador{ width:120px; height:120px; }
+    .botones_seccion2{ padding:0 18px; }
+}
+
 
